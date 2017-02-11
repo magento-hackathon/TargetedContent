@@ -5,15 +5,16 @@
             <item name="label" xsi:type="string"/>
         </item>
     </argument>
-    <field name="my_locations">
+    <field name="location_id">
         <argument name="data" xsi:type="array">
             <item name="options" xsi:type="object">Firegento\TargetedContent\Model\Source\Location</item>
             <item name="config" xsi:type="array">
                 <item name="visible" xsi:type="boolean">true</item>
                 <item name="dataType" xsi:type="string">text</item>
-                <item name="label" xsi:type="string" translate="true">My Locations</item>
-                <item name="formElement" xsi:type="string">multiselect</item>
+                <item name="label" xsi:type="string" translate="true">Choose Location</item>
+                <item name="formElement" xsi:type="string">select</item>
                 <item name="source" xsi:type="string">Firegento\TargetedContent\Model\Source\Location</item>
+                <item name="dataScope" xsi:type="string">location_id</item>
             </item>
         </argument>
     </field>
