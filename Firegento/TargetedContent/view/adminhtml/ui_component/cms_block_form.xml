@@ -14,7 +14,6 @@
                 <item name="label" xsi:type="string" translate="true">My Locations</item>
                 <item name="formElement" xsi:type="string">multiselect</item>
                 <item name="source" xsi:type="string">Firegento\TargetedContent\Model\Source\Location</item>
-                <item name="dataScope" xsi:type="string">block_id</item>
             </item>
         </argument>
     </field>
