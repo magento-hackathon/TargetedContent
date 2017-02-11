@@ -1,5 +1,5 @@
 <?php
-namespace Magento\Cms\Setup;
+namespace Firegento\TargetedContent\Setup;
 
 use Magento\Framework\Setup\InstallSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
