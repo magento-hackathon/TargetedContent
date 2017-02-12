@@ -7,6 +7,7 @@ class Location extends AbstractSource {
 
     public function getAllOptions()
     {
+        // ToDo: Load über eigenes Table Location
         return [
             'option1' => [
                 'label' => 'Munich',
