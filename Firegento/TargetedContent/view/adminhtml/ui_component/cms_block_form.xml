@@ -15,6 +15,7 @@
                 <item name="formElement" xsi:type="string">select</item>
                 <item name="source" xsi:type="string">Firegento\TargetedContent\Model\Source\Location</item>
                 <item name="dataScope" xsi:type="string">location_id</item>
+                <item name="sortOrder" xsi:type="number">20</item>
             </item>
         </argument>
     </field>
